@@ -1,10 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+<!-- Team Section -->
+<div id="team">
+  <div class="container">
+    <div id="row">
+      <div class="col-md-6">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="section-title">
+            <h2>{{ chef.title}}</h2>
+            </div>
+          <p>{{ chef.desc }}</p>
+
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="team-img"><img src={{ chef.photo.url }} alt="..."></div>
+      </div>
+    </div>
+  </div>
+</div>
