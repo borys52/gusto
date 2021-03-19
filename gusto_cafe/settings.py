@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = '@0(f=ynz+wll($+_vrp9k9&sux0!-4pcp%076sh#)b7yz3y)^5'
+#SECRET_KEY = '@0(f=ynz+wll($+_vrp9k9&sux0!-4pcp%076sh#)b7yz3y)^5'
 
 DB_NAME = os.environ.get('DB_NAME')
 DB_PASSWORD = os.environ.get('DB_PASSWORD')
